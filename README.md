@@ -35,23 +35,24 @@ This project provides a simple command to interact with the USB relay.
 
 To turn on the USB relay
 
-```sudo sainsmart --on RELAY_NUMBER```
+    ```sudo sainsmart --on RELAY_NUMBER```
 
 For example to turn on the relay 1 we can use
-```sudo sainsmart --on 1```
+    ```sudo sainsmart --on 1```
 To run on all the relays
-```sudo sainsmart --on all```
+    ```sudo sainsmart --on all```
 
 To turn off the USB relay 1
-```sudo sainsmart --off 1```
+    ```sudo sainsmart --off 1```
 To run on all the relays
-```sudo sainsmart --off all```
+    ```sudo sainsmart --off all```
 
 To get the status of the relays
-```sudo sainsmart --status```
+    ```sudo sainsmart --status```
 
 To get more help information
-```sudo sainsmart --help```
+    ```sudo sainsmart --help```
+
 Notes
 ============
 The Sainsmart card uses the FTDI FT245RL chip. This chip is controlled directly through the open source libFTDI library. No Kernel driver is needed. However on most Linux distributions, the ftdi_sio serial driver is automatically loaded when the FT245RL chip is detected. In order to grant the crelay software access to the card, the default driver needs to be unloaded:

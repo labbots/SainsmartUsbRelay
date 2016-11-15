@@ -35,23 +35,29 @@ This project provides a simple command to interact with the USB relay.
 
 To turn on the USB relay
 
-    ```sudo sainsmart --on RELAY_NUMBER```
+    sudo sainsmart --on RELAY_NUMBER
 
 For example to turn on the relay 1 we can use
-    ```sudo sainsmart --on 1```
+
+    sudo sainsmart --on 1
 To run on all the relays
-    ```sudo sainsmart --on all```
+
+    sudo sainsmart --on all
 
 To turn off the USB relay 1
-    ```sudo sainsmart --off 1```
+
+    sudo sainsmart --off 1
 To run on all the relays
-    ```sudo sainsmart --off all```
+
+    sudo sainsmart --off all
 
 To get the status of the relays
-    ```sudo sainsmart --status```
+
+    sudo sainsmart --status
 
 To get more help information
-    ```sudo sainsmart --help```
+
+    sudo sainsmart --help
 
 Notes
 ============

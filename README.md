@@ -13,7 +13,7 @@ This software is based on C program and requires gcc to compile the program from
 
  - **Compiling the code**
 
-        git clone git@bitbucket.org:dhiva/sainsmart-usb-relay.git
+        git clone https://github.com/labbots/SainsmartUsbRelay.git
         cd sainsmart-usb-relay
         make
         sudo make install

@@ -61,7 +61,7 @@ To get more help information
 
 Notes
 ============
-The Sainsmart card uses the FTDI FT245RL chip. This chip is controlled directly through the open source libFTDI library. No Kernel driver is needed. However on most Linux distributions, the ftdi_sio serial driver is automatically loaded when the FT245RL chip is detected. In order to grant the crelay software access to the card, the default driver needs to be unloaded:
+The Sainsmart card uses the FTDI FT245RL chip. This chip is controlled directly through the open source libFTDI library. No Kernel driver is needed. However on most Linux distributions, the ftdi_sio serial driver is automatically loaded when the FT245RL chip is detected. In order to grant the sainsmart software access to the card, the default driver needs to be unloaded:
 
     rmmod ftdi_sio
 To prevent automatic loading of the driver, add the following line to /etc/modprobe.d/blacklist.conf:
